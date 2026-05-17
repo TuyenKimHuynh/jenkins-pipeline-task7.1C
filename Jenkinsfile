@@ -13,7 +13,7 @@ pipeline {
                 echo 'Tool: OWASP Dependency Check or Synk'
             }
         }
-        stage('Code Analysis') {
+        stage('Code Analysis ') {
             steps {
                 echo 'Integrate a code analysis tool to analyse the code and ensure it meets industry standards.'
                 echo 'Tool: SonarQube (integrated with Jenkins)'

@@ -22,7 +22,7 @@ pipeline {
         stage('Security Scan') {
             steps {
                 echo 'Perform a security scan on the code using a tool to identify any vulnerabilities. Research and select a tool to scan your code.'
-                echo 'Tool: OWASP Dependency Check or Snyk'
+                echo 'Tool : OWASP Dependency Check or Snyk'
             }
         }
         stage('Deploy to Staging') {

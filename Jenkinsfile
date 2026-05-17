@@ -7,7 +7,7 @@ pipeline {
                 echo 'Tool: Maven, mvn clean compile package'
             }
         }
-        stage('Unit and Integration Tests') {
+        stage('Unit and Integration Tests ') {
             steps {
                 echo 'Run unit tests to ensure the code functions as expected and run integration tests to ensure the different components of the application work together as expected.'
                 echo 'Tool: OWASP Dependency Check or Synk'

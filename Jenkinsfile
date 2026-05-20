@@ -25,7 +25,7 @@ pipeline {
                 echo 'Tool : OWASP Dependency Check or Snyk'
             }
         }
-        stage('Deploy to Staging ') {
+        stage('Deploy to  Staging ') {
             steps {
                 echo 'Deploy the application to a staging serverdation.'
                 echo 'Tool: AWS CLI / scp to EC2 instance'

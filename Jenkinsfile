@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Build  ') {
+        stage('Build') {
             steps {
                 echo 'Build the code using a build automation tool to compile and package  your code.'
-                echo 'Tool: Maven, mvn clean compile the package'
+                echo 'Tool: Maven, mvn clean compile package'
             }
         }
         stage('Unit and Integration Tests') {
